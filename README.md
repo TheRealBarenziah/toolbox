@@ -1,6 +1,6 @@
 Todo:
 - AWS EC2/RDS
-# All is free to use. When not, I specify it
+# All are free (in $$$, maybe not in personal info) to use (unless specified otherwise)
 
 ## Backend
 - [Strapi][3] (very cool, open source headless CMS - [Tutorial][5] for ezpz Reactjs + Strapi Blog)
@@ -16,6 +16,9 @@ Todo:
 ## Toolboxception
 - [My eyes are green][2] **'cause I eat *a lot* of vegetables**
 
+## Le baguette du fromage (ressources fr_FR)
+- [Devenir_freelance][8]
+
 [1]: https://gist.github.com/willurd/5720255
 [2]: https://github.com/digitalfu/developer-reference-resources-on-github
 [3]: https://strapi.io/documentation/3.0.0-beta.x/getting-started/quick-start.html
@@ -23,3 +26,4 @@ Todo:
 [5]: https://medium.com/@adeyinkakazeemolufemioluoje/create-a-blog-with-react-and-strapi-cc3d8f0f01e1
 [6]: https://zapier.com/
 [7]: https://www.typeform.com/
+[8]: https://github.com/etnbrd/awesome-freelance-fr
