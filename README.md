@@ -15,7 +15,7 @@ Todo 4 wild:
 [Typeform][7] (doing web form in minutes. sexier than Google Forms. Pairs EXTREMELY well with [Zapier][6] to push form data into an API/whatever - setup max 1h first time, <15mn next times, form creation included)
 
 ## Toolboxception
-*[My eyes are green][2] 'cause I eat **a lot** of vegetables*
+[My eyes are green][2] **'cause I eat *a lot* of vegetables**
 
 [1]: https://gist.github.com/willurd/5720255
 [2]: https://github.com/digitalfu/developer-reference-resources-on-github
