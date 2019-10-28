@@ -15,7 +15,7 @@ Todo:
 - [Typeform][7] (doing web form in minutes. sexier than Google Forms. Pairs EXTREMELY well with [Zapier][6] to push form data into an API/whatever - setup max 1h first time, <15mn next times, form creation included)
 
 ## Toolboxception
-- [My eyes are green][2] **'cause I eat *a lot* of vegetables**
+- ['cause I eat *a lot* of vegetables][2]
 
 ## Le baguette du fromage (ressources fr_FR)
 - [Devenir_freelance][8]
