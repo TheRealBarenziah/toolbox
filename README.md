@@ -1,6 +1,6 @@
 Todo:
 - AWS EC2/RDS
-# All are free (in $$$, maybe not in personal info) to use (unless specified otherwise)
+# All are free (in $$$, maybe not in personal info) to use
 
 ## Backend
 - [Strapi][3] (very cool, open source headless CMS - [Tutorial][5] for ezpz Reactjs + Strapi Blog)
@@ -8,6 +8,7 @@ Todo:
 
 ## Deploy
 - [One-liner server list][1]
+- [Deploy Strapi app on AWS (EC2, RDS & S3)][9]
 
 ## Quality of life
 - [Zapier][6] (doing webhooks & stuff in minutes - ez pz)
@@ -27,3 +28,4 @@ Todo:
 [6]: https://zapier.com/
 [7]: https://www.typeform.com/
 [8]: https://github.com/etnbrd/awesome-freelance-fr
+[9]: https://github.com/61FINTECH/deploy-strapi-on-aws
