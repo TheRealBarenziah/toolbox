@@ -14,11 +14,14 @@ Todo:
 - [Zapier][6] (doing webhooks & stuff in minutes - ez pz)
 - [Typeform][7] (doing web form in minutes. sexier than Google Forms. Pairs EXTREMELY well with [Zapier][6] to push form data into an API/whatever - setup max 1h first time, <15mn next times, form creation included)
 
+## Git
+- [Replace Master by branch x][10] (One of the most elegant way to 'fix' your awful, dirty, godforsaken gitflow)
+
 ## Toolboxception
 - ['cause I eat *a lot* of vegetables][2]
 
 ## Le baguette du fromage (ressources fr_FR)
-- [Devenir_freelance][8]
+- [Devenir freelance][8]
 
 [1]: https://gist.github.com/willurd/5720255
 [2]: https://github.com/digitalfu/developer-reference-resources-on-github
@@ -29,3 +32,4 @@ Todo:
 [7]: https://www.typeform.com/
 [8]: https://github.com/etnbrd/awesome-freelance-fr
 [9]: https://github.com/61FINTECH/deploy-strapi-on-aws
+[10]: https://stackoverflow.com/a/2862938/11894221
