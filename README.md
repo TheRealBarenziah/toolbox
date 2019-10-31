@@ -16,6 +16,8 @@ Todo:
 
 ## Git
 - [Replace Master by branch x][10] (One of the most elegant way to 'fix' your awful, dirty, godforsaken gitflow)
+- [Delete a remote branch][11] (tl;dr : `git push origin --delete <branch_name>`)
+- [Delete a local branch][12] (tl;dr: `git branch -d <branch_name>` , use -D instead to force delete w/o status check)
 
 ## Toolboxception
 - ['cause I eat *a lot* of vegetables][2]
@@ -33,3 +35,5 @@ Todo:
 [8]: https://github.com/etnbrd/awesome-freelance-fr
 [9]: https://github.com/61FINTECH/deploy-strapi-on-aws
 [10]: https://stackoverflow.com/a/2862938/11894221
+[11]: https://stackoverflow.com/a/2003515/11894221
+[12]: https://stackoverflow.com/a/10999165/11894221
