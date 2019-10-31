@@ -9,6 +9,8 @@ Todo:
 ## Deploy
 - [One-liner server list][1]
 - [Deploy Strapi app on AWS (EC2, RDS & S3)][9]
+- [Deploy React app on gh-pages][13]
+- [Deploy React app on Netlify][14] ([Or more depht about netlify.toml and further links][15])
 
 ## Quality of life
 - [Zapier][6] (doing webhooks & stuff in minutes - ez pz)
@@ -37,3 +39,6 @@ Todo:
 [10]: https://stackoverflow.com/a/2862938/11894221
 [11]: https://stackoverflow.com/a/2003515/11894221
 [12]: https://stackoverflow.com/a/10999165/11894221
+[13]: https://devhoot.ooo/how-to-host-react-websites-on-github.-a-comprehensive-guide!/
+[14]: https://create-react-app.dev/docs/deployment/#netlify
+[15]: https://hackernoon.com/netlify-continuous-deployment-github-react-lambdaschool-67f3ae658d31
