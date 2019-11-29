@@ -12,6 +12,10 @@ Todo:
 - [Deploy React app on gh-pages][13]
 - [Deploy React app on Netlify][14] ([Or more depht about netlify.toml and further links][15])
 
+## CSS
+- [Flexbox main resource][17]
+- [More important than !important][16]
+
 ## Quality of life
 - [Zapier][6] (doing webhooks & stuff in minutes - ez pz)
 - [Typeform][7] (doing web form in minutes. sexier than Google Forms. Pairs EXTREMELY well with [Zapier][6] to push form data into an API/whatever - setup max 1h first time, <15mn next times, form creation included)
@@ -23,6 +27,7 @@ Todo:
 
 ## Toolboxception
 - ['cause I eat *a lot* of vegetables][2]
+- [ULTIMATE resource list][18]
 
 ## Le baguette du fromage (ressources fr_FR)
 - [Devenir freelance][8]
@@ -42,3 +47,6 @@ Todo:
 [13]: https://devhoot.ooo/how-to-host-react-websites-on-github.-a-comprehensive-guide!/
 [14]: https://create-react-app.dev/docs/deployment/#netlify
 [15]: https://hackernoon.com/netlify-continuous-deployment-github-react-lambdaschool-67f3ae658d31
+[16]: https://paulbakaus.com/2017/07/27/more-important-than-important/
+[17]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+[18]: https://github.com/sindresorhus/awesome
