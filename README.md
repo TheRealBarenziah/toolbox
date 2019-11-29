@@ -16,6 +16,10 @@ Todo:
 - [Flexbox main resource][17]
 - [More important than !important][16]
 
+## Performance
+- [Big O: a JavaScript introduction][19]
+- [Getting started with AssemblyScript][20]
+
 ## Quality of life
 - [Zapier][6] (doing webhooks & stuff in minutes - ez pz)
 - [Typeform][7] (doing web form in minutes. sexier than Google Forms. Pairs EXTREMELY well with [Zapier][6] to push form data into an API/whatever - setup max 1h first time, <15mn next times, form creation included)
@@ -50,3 +54,5 @@ Todo:
 [16]: https://paulbakaus.com/2017/07/27/more-important-than-important/
 [17]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 [18]: https://github.com/sindresorhus/awesome
+[19]: https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b
+[20]: https://www.sitepen.com/blog/getting-started-with-assemblyscript/
