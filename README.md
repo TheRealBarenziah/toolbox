@@ -31,8 +31,11 @@ Todo:
 - [Update a forked repo with current version][21] (no tl;dr: the link is 10 lines long, straight to the point)
 
 ## Toolboxception
-- ['cause I eat *a lot* of vegetables][2]
+- [Eating a lot of vegetables][2]
 - [ULTIMATE resource list][18]
+
+## Did you know...
+- [Yarn is Facebook and is sending your data to Facebook ?][22]
 
 ## Le baguette du fromage (ressources fr_FR)
 - [Devenir freelance][8]
@@ -58,3 +61,4 @@ Todo:
 [19]: https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b
 [20]: https://www.sitepen.com/blog/getting-started-with-assemblyscript/
 [21]: https://medium.com/@topspinj/how-to-git-rebase-into-a-forked-repo-c9f05e821c8a
+[22]: https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/
