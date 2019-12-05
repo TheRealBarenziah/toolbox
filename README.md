@@ -28,6 +28,7 @@ Todo:
 - [Replace Master by branch x][10] (One of the most elegant way to 'fix' your awful, dirty, godforsaken gitflow)
 - [Delete a remote branch][11] (tl;dr : `git push origin --delete <branch_name>`)
 - [Delete a local branch][12] (tl;dr: `git branch -d <branch_name>` , use -D instead to force delete w/o status check)
+- [Update a forked repo with current version][21] (no tl;dr: the link is 10 lines long, straight to the point)
 
 ## Toolboxception
 - ['cause I eat *a lot* of vegetables][2]
@@ -56,3 +57,4 @@ Todo:
 [18]: https://github.com/sindresorhus/awesome
 [19]: https://medium.com/cesars-tech-insights/big-o-notation-javascript-25c79f50b19b
 [20]: https://www.sitepen.com/blog/getting-started-with-assemblyscript/
+[21]: https://medium.com/@topspinj/how-to-git-rebase-into-a-forked-repo-c9f05e821c8a
