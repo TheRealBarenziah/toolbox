@@ -4,6 +4,7 @@ Todo:
 
 ## Backend
 - [Strapi][3] (very cool, open source headless CMS - [Tutorial][5] for ezpz Reactjs + Strapi Blog)
+- [Create a Strapi/Koa middleware][23] (nice Medium article about it)
 - [Screen][4] (awesome util to run server amongst other things)
 
 ## Deploy
@@ -11,6 +12,7 @@ Todo:
 - [Deploy Strapi app on AWS (EC2, RDS & S3)][9]
 - [Deploy React app on gh-pages][13]
 - [Deploy React app on Netlify][14] ([Or more depht about netlify.toml and further links][15])
+- [Deploy a Wordpress on OVH][24]
 
 ## CSS
 - [Flexbox main resource][17]
@@ -62,3 +64,5 @@ Todo:
 [20]: https://www.sitepen.com/blog/getting-started-with-assemblyscript/
 [21]: https://medium.com/@topspinj/how-to-git-rebase-into-a-forked-repo-c9f05e821c8a
 [22]: https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/
+[23]: https://medium.com/@prakash.gangurde/how-to-create-a-middleware-for-strapi-f80a24876fc9
+[24]: https://girlknowstech.com/how-to-install-wordpress-on-ovh-server/
