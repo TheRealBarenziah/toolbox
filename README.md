@@ -2,10 +2,14 @@ Todo:
 - AWS EC2/RDS
 # All are free (in $$$, maybe not in personal info) to use
 
+## Reactjs
+- [File input wrapper][28] (For more infos about client-side file access [check File API doc][29])
+
 ## Backend
 - [Strapi][3] (very cool, open source headless CMS - [Tutorial][5] for ezpz Reactjs + Strapi Blog)
 - [Create a Strapi/Koa middleware][23] (nice Medium article about it)
 - [Screen][4] (awesome util to run server amongst other things)
+- [Node util][25] (native, easy way to say goodbye to "Error: JSON circular reference")
 
 ## Deploy
 - [One-liner server list][1]
@@ -16,6 +20,7 @@ Todo:
 
 ## CSS
 - [Flexbox main resource][17]
+- [Grid main resource][26]
 - [More important than !important][16]
 
 ## Performance
@@ -25,6 +30,7 @@ Todo:
 ## Quality of life
 - [Zapier][6] (doing webhooks & stuff in minutes - ez pz)
 - [Typeform][7] (doing web form in minutes. sexier than Google Forms. Pairs EXTREMELY well with [Zapier][6] to push form data into an API/whatever - setup max 1h first time, <15mn next times, form creation included)
+- [npm i async-foreach][27] (For each forEach, this module save a lot of time (unless writing tons of `new Promise()` turns you on)
 
 ## Git
 - [Replace Master by branch x][10] (One of the most elegant way to 'fix' your awful, dirty, godforsaken gitflow)
@@ -66,3 +72,8 @@ Todo:
 [22]: https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/
 [23]: https://medium.com/@prakash.gangurde/how-to-create-a-middleware-for-strapi-f80a24876fc9
 [24]: https://girlknowstech.com/how-to-install-wordpress-on-ovh-server/
+[25]: https://stackoverflow.com/a/18354289
+[26]: https://css-tricks.com/snippets/css/complete-guide-grid/
+[27]: https://www.npmjs.com/package/async-foreach
+[28]: https://github.com/greena13/react-simple-file-input#readme
+[29]: https://developer.mozilla.org/en-US/docs/Web/API/File
