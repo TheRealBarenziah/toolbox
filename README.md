@@ -8,8 +8,10 @@ Todo:
 ## Backend
 - [Strapi][3] (very cool, open source headless CMS - [Tutorial][5] for ezpz Reactjs + Strapi Blog)
 - [Create a Strapi/Koa middleware][23] (nice Medium article about it)
-- [Screen][4] (awesome util to run server amongst other things)
+- [Screen][4] (awesome Linux util to run server amongst other things)
 - [Node util][25] (native, easy way to say goodbye to "Error: JSON circular reference")
+- [Modern/Inline API documentation][32] (Swagger-ui. For a ligher alternative (and personal favorite) check [Apidoc][33])
+- [Wordpress .htaccess tricks][36]
 
 ## Deploy
 - [One-liner server list][1]
@@ -17,6 +19,7 @@ Todo:
 - [Deploy React app on gh-pages][13]
 - [Deploy React app on Netlify][14] ([Or more depht about netlify.toml and further links][15])
 - [Deploy a Wordpress on OVH][24]
+- [Manage security of dependencies][31] (Snyk.io; free version available)
 
 ## CSS
 - [Flexbox main resource][17]
@@ -31,19 +34,29 @@ Todo:
 - [Zapier][6] (doing webhooks & stuff in minutes - ez pz)
 - [Typeform][7] (doing web form in minutes. sexier than Google Forms. Pairs EXTREMELY well with [Zapier][6] to push form data into an API/whatever - setup max 1h first time, <15mn next times, form creation included)
 - [npm i async-foreach][27] (For each forEach, this module save a lot of time (unless writing tons of `new Promise()` turns you on)
+- [Password generator][37]
 
 ## Git
 - [Replace Master by branch x][10] (One of the most elegant way to 'fix' your awful, dirty, godforsaken gitflow)
 - [Delete a remote branch][11] (tl;dr : `git push origin --delete <branch_name>`)
 - [Delete a local branch][12] (tl;dr: `git branch -d <branch_name>` , use -D instead to force delete w/o status check)
 - [Update a forked repo with current version][21] (no tl;dr: the link is 10 lines long, straight to the point)
+- [Formating a sweet README with banners and all][30]
 
 ## Toolboxception
 - [Eating a lot of vegetables][2]
+- [TDD 101: a JavaScript introduction][42]
 - [ULTIMATE resource list][18]
 
 ## Did you know...
 - [Yarn is Facebook and is sending your data to Facebook ?][22]
+- [QuickJS][38], a small, embeddable JS engine written by 3-times IOCCC winner (genius?) [Fabrice Bellard][39]
+- [Rosetta Code][40], common algos & math problems solved for *n* languages
+- [JSPerf][41] (*jsPerf aims to provide an easy way to create & share test cases, comparing the perf of different JS snippets by running benchmarks.*)
+
+## TypeScript resources
+- [Awesome TypeScript resources][34]
+- [Type def collection][35]
 
 ## Le baguette du fromage (ressources fr_FR)
 - [Devenir freelance][8]
@@ -77,3 +90,16 @@ Todo:
 [27]: https://www.npmjs.com/package/async-foreach
 [28]: https://github.com/greena13/react-simple-file-input#readme
 [29]: https://developer.mozilla.org/en-US/docs/Web/API/File
+[30]: https://glebbahmutov.com/blog/how-i-organize-readme/
+[31]: https://snyk.io/
+[32]: https://swagger.io/tools/swagger-ui/
+[33]: https://apidocjs.com/
+[34]: https://github.com/dzharii/awesome-typescript
+[35]: https://github.com/DefinitelyTyped/DefinitelyTyped
+[36]: https://perishablepress.com/stupid-htaccess-tricks/
+[37]: https://passwordsgenerator.net/
+[38]: https://bellard.org/quickjs/
+[39]: https://en.wikipedia.org/wiki/Fabrice_Bellard
+[40]: http://www.rosettacode.org/wiki/Category:Programming_Tasks
+[41]: https://jsperf.com/
+[42]: https://github.com/dwyl/learn-tdd
