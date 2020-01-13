@@ -1,40 +1,51 @@
-Todo:
-- AWS EC2/RDS
 # All are free (in $$$, maybe not in personal info) to use
+  - [Backend](#backend)
+  - [Cheat Sheets](#cheat-sheets)
+  - [CSS](#css)
+  - [Deploy](#deploy)
+  - [Git](#git)
+  - [Performance](#performance)
+  - [Quality of life](#quality-of-life)
+  - [Reactjs](#reactjs)
+  - [TypeScript resources](#typescript-resources)
+  - [Toolboxception](#toolboxception)
+  - [Zoom: did you know...](#did-you-know)
+  - [Zzz: ressources fr_FR](#le-baguette-du-fromage-ressources-frfr)
 
-## Reactjs
-- [File input wrapper][28] (For more infos about client-side file access [check File API doc][29])
 
 ## Backend
 - [Strapi][3] (very cool, open source headless CMS - [Tutorial][5] for ezpz Reactjs + Strapi Blog)
 - [Create a Strapi/Koa middleware][23] (nice Medium article about it)
-- [Screen][4] (awesome Linux util to run server amongst other things)
+- [Screen][4] (awesome Linux util to run server, amongst other things)
 - [Node util][25] (native, easy way to say goodbye to "Error: JSON circular reference")
 - [Modern/Inline API documentation][32] (Swagger-ui. For a ligher alternative (and personal favorite) check [Apidoc][33])
 - [Wordpress .htaccess tricks][36]
+
+## Cheat Sheets
+- [Bash][51]
+- [HTML][52]
+- [CSS][53]
+- [JS][50] ("vanilla")
+- [React-router][54]
+- [Redux][55]
+- [Redux async action][48] (template)
+- [SQL][49]
+- [Sequelize][45] (JavaScript ORM)
+- [Setup ESLint w/ React App][46] (template)
+
+## CSS
+- [Flexbox main resource][17]
+- [Grid main resource][26]
+- ["Bootstrap" grid using only Flexbox][43] (ezpz)
+- [More important than !important][16]
 
 ## Deploy
 - [One-liner server list][1]
 - [Deploy Strapi app on AWS (EC2, RDS & S3)][9]
 - [Deploy React app on gh-pages][13]
-- [Deploy React app on Netlify][14] ([Or more depht about netlify.toml and further links][15])
+- [Deploy React app on Netlify][14] (More depht about netlify.toml and further links [here][15])
 - [Deploy a Wordpress on OVH][24]
 - [Manage security of dependencies][31] (Snyk.io; free version available)
-
-## CSS
-- [Flexbox main resource][17]
-- [Grid main resource][26]
-- [More important than !important][16]
-
-## Performance
-- [Big O: a JavaScript introduction][19]
-- [Getting started with AssemblyScript][20]
-
-## Quality of life
-- [Zapier][6] (doing webhooks & stuff in minutes - ez pz)
-- [Typeform][7] (doing web form in minutes. sexier than Google Forms. Pairs EXTREMELY well with [Zapier][6] to push form data into an API/whatever - setup max 1h first time, <15mn next times, form creation included)
-- [npm i async-foreach][27] (For each forEach, this module save a lot of time (unless writing tons of `new Promise()` turns you on)
-- [Password generator][37]
 
 ## Git
 - [Replace Master by branch x][10] (One of the most elegant way to 'fix' your awful, dirty, godforsaken gitflow)
@@ -43,22 +54,37 @@ Todo:
 - [Update a forked repo with current version][21] (no tl;dr: the link is 10 lines long, straight to the point)
 - [Formating a sweet README with banners and all][30]
 
-## Toolboxception
-- [Eating a lot of vegetables][2]
-- [TDD 101: a JavaScript introduction][42]
-- [ULTIMATE resource list][18]
+## Performance
+- [Big O: a JavaScript introduction][19]
+- [Getting started with AssemblyScript][20]
 
-## Did you know...
-- [Yarn is Facebook and is sending your data to Facebook ?][22]
-- [QuickJS][38], a small, embeddable JS engine written by 3-times IOCCC winner (genius?) [Fabrice Bellard][39]
-- [Rosetta Code][40], common algos & math problems solved for *n* languages
-- [JSPerf][41] (*jsPerf aims to provide an easy way to create & share test cases, comparing the perf of different JS snippets by running benchmarks.*)
+## Quality of life
+- [Zapier][6] (doing webhooks & stuff in minutes - ez pz)
+- [Huginn][44] (Zapier Open-Source alternative, written in Ruby)
+- [Typeform][7] (Web forms, sexier than Google Forms. Pairs EXTREMELY well with [Zapier][6] web hooks. Setup: 1h first time, <15mn next times, form creation included)
+- [npm i async-foreach][27] (For each forEach, this module save a lot of time (unless writing tons of `new Promise()` turns you on)
+- [Password generator][37]
+- [Basic Linux memory increase][47] ( `fs.inotify.max_user_watches=524288` )
+
+## Reactjs
+- [File input wrapper][28] (For more infos about client-side file access [check File API doc][29])
 
 ## TypeScript resources
 - [Awesome TypeScript resources][34]
 - [Type def collection][35]
 
-## Le baguette du fromage (ressources fr_FR)
+## Toolboxception
+- [Eating a lot of vegetables][2]
+- [TDD 101: a JavaScript introduction][42]
+- [ULTIMATE resource list][18]
+
+## Zoom: did you know...
+- [Yarn is Facebook and is sending your data to Facebook ?][22]
+- [QuickJS][38], a small, embeddable JS engine written by 3-times IOCCC winner (genius?) [Fabrice Bellard][39]
+- [Rosetta Code][40], common algos & math problems solved for *n* languages
+- [JSPerf][41] (Quote: *an easy way to create & share test cases, comparing the perf of different JS snippets by running benchmarks.*)
+
+## Zzz: le baguette du fromage (ressources fr_FR)
 - [Devenir freelance][8]
 
 [1]: https://gist.github.com/willurd/5720255
@@ -103,3 +129,16 @@ Todo:
 [40]: http://www.rosettacode.org/wiki/Category:Programming_Tasks
 [41]: https://jsperf.com/
 [42]: https://github.com/dwyl/learn-tdd
+[43]: https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01
+[44]: https://github.com/huginn/huginn
+[45]: https://gist.github.com/Eth3rnit3/3a83cfa8d6c391139db24aadb1b0a774
+[46]: https://gist.github.com/Eth3rnit3/ef4ade2e2b5be0e0d0047522752f9923
+[47]: https://gist.github.com/Eth3rnit3/46c9c9cdb8c66485e2b462645719ee4d
+[48]: https://gist.github.com/Eth3rnit3/0ad5004e7970a942376bd71361671bc2
+[49]: https://gist.github.com/hofmannsven/9164408
+[50]: https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86
+[51]: https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/
+[52]: https://htmlcheatsheet.com/
+[53]: https://htmlcheatsheet.com/css/
+[54]: https://devhints.io/react-router
+[55]: https://devhints.io/redux

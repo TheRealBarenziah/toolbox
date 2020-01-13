@@ -31,40 +31,38 @@ THE SOFTWARE.
 
  */
 var gotojs = function gotojs(unparsed) {
-
-	/**
-	 * function find_container
-	 *
-	 * This function finds the containing brackets that surround a
-	 * matched 'goto' call. This prevents goto's from being able to
-	 * be called into the middle of function calls (which would break
-	 * because they lacked context).
-	 *
-	 * @param loc       {integer} The location/index of the goto label
-	 * @param js_string {string}  This is the code block that is being modified.
-	 * 
-	 * @returns {Object} -- This object contains the start and end points of the container
-	 */
+  /**
+   * function find_container
+   *
+   * This function finds the containing brackets that surround a
+   * matched 'goto' call. This prevents goto's from being able to
+   * be called into the middle of function calls (which would break
+   * because they lacked context).
+   *
+   * @param loc       {integer} The location/index of the goto label
+   * @param js_string {string}  This is the code block that is being modified.
+   *
+   * @returns {Object} -- This object contains the start and end points of the container
+   */
   this.find_container = function find_container(loc, js_string) {
     // Allocate all variables up front -- good for minification
     var i = loc,
       stack = -1,
-      start, end;
+      start,
+      end;
 
     // Trace backwards through each character and locate
     // a matching bracket set
     while (i >= 0 && stack != 0) {
       i--;
       // Keep a parity of brackets
-      if (js_string.charAt(i) == '{') {
+      if (js_string.charAt(i) == "{") {
         stack++;
-      }
-      else if (js_string.charAt(i) == '}') {
+      } else if (js_string.charAt(i) == "}") {
         stack--;
       }
     }
     start = i;
-
 
     i = loc;
     stack = 1;
@@ -72,29 +70,28 @@ var gotojs = function gotojs(unparsed) {
     while (i < js_string.length && stack != 0) {
       i++;
       // Keep a parity of brackets
-      if (js_string.charAt(i) == '{') {
+      if (js_string.charAt(i) == "{") {
         stack++;
-      }
-      else if (js_string.charAt(i) == '}') {
+      } else if (js_string.charAt(i) == "}") {
         stack--;
       }
     }
     end = i;
 
     // Send back as an object
-    return { "start": start, "end": end };
+    return { start: start, end: end };
   };
 
-	/**
-	 * function filter_js
-	 *
-	 * This function does the actual replacement of the new keywords into valid javascript.
-	 * It takes special care to avoid string literals with the keywords in them.
-	 *
-	 * @param js_string {string} This is the unmodified version of the code as a string
-	 *
-	 * @returns {string} -- the modified source that is now valid javascript
-	 */
+  /**
+   * function filter_js
+   *
+   * This function does the actual replacement of the new keywords into valid javascript.
+   * It takes special care to avoid string literals with the keywords in them.
+   *
+   * @param js_string {string} This is the unmodified version of the code as a string
+   *
+   * @returns {string} -- the modified source that is now valid javascript
+   */
   this.filter_js = function filter_js(js_string) {
     var new_js_string = js_string,
       re_label = /\[lbl\]\s+(\w+)\s*:/im,
@@ -107,7 +104,7 @@ var gotojs = function gotojs(unparsed) {
 
     // Replacing the goto keyword is simple, just replace it with a continue
     // and change a variable value
-    new_js_string = new_js_string.replace(re_goto, function ($0, $1) {
+    new_js_string = new_js_string.replace(re_goto, function($0, $1) {
       return "goto_function_" + $1 + " = false;\n continue " + $1 + ";";
     });
 
@@ -123,10 +120,15 @@ var gotojs = function gotojs(unparsed) {
       container = this.find_container(cur_label.index, new_js_string);
 
       // Replace the lbl keyword with the start of the while loop
-      new_js_string = new_js_string.replace(re_label, function ($0, $1) {
+      new_js_string = new_js_string.replace(re_label, function($0, $1) {
         var output = "var goto_function_" + $1 + " = false;\n";
         output += $1 + ": ";
-        output += "while(!goto_function_" + $1 + "){\n goto_function_" + $1 + " = true;\n";
+        output +=
+          "while(!goto_function_" +
+          $1 +
+          "){\n goto_function_" +
+          $1 +
+          " = true;\n";
 
         // save an offset of new characters, since the end of the block has shifted
         add_length = output.length - $0.length;
@@ -138,7 +140,7 @@ var gotojs = function gotojs(unparsed) {
       last_half = new_js_string.substring(container.end + add_length);
 
       // Place a closing bracket for the while loop inbetween
-      new_js_string = first_half + '}' + last_half;
+      new_js_string = first_half + "}" + last_half;
       cur_label = re_label.exec(new_js_string);
     }
 
@@ -146,13 +148,12 @@ var gotojs = function gotojs(unparsed) {
     return new_js_string;
   };
 
-
   // Variables for string manipulation and saving
   var strings = [],
-    sid = '_' + (+ new Date());
+    sid = "_" + +new Date();
 
   // remove string literals
-  var js_nostr = unparsed.replace(/("|')((?:\\\1|.)+?)\1/g, function ($0) {
+  var js_nostr = unparsed.replace(/("|')((?:\\\1|.)+?)\1/g, function($0) {
     strings[strings.length] = $0;
     return sid;
   });
@@ -161,7 +162,7 @@ var gotojs = function gotojs(unparsed) {
   var parsed = this.filter_js(js_nostr);
 
   // put the strings back where they belong!
-  parsed = parsed.replace(RegExp(sid, 'g'), function () {
+  parsed = parsed.replace(RegExp(sid, "g"), function() {
     return strings.shift();
   });
 
@@ -172,12 +173,14 @@ var gotojs = function gotojs(unparsed) {
 // On load, do the parse.
 // You are encouraged to change this to an onDomReady call of your choosing.
 var oldLoad = window.onload;
-window.onload = function () {
+window.onload = function() {
   // Use parseScripts by James Padolsey to capture any javascript that is
   // placed in a script box with the 'text/jsplusgoto' type, manipulate it,
   // and then run the new manipulated version.
-  if (oldLoad) { oldLoad(); }
-  parseScripts('text/jsplusgoto', gotojs);
+  if (oldLoad) {
+    oldLoad();
+  }
+  parseScripts("text/jsplusgoto", gotojs);
 };
 /*
      FILE ARCHIVED ON 21:06:06 Dec 07, 2013 AND RETRIEVED FROM THE
