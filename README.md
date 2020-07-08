@@ -32,6 +32,7 @@
 - [SQL][49]
 - [Sequelize][45] (JavaScript ORM)
 - [Setup ESLint w/ React App][46] (template)
+- [React Hooks][57]
 
 ## CSS
 - [Flexbox main resource][17]
@@ -52,6 +53,8 @@
 - [Delete a remote branch][11] (tl;dr : `git push origin --delete <branch_name>`)
 - [Delete a local branch][12] (tl;dr: `git branch -d <branch_name>` , use -D instead to force delete w/o status check)
 - [Update a forked repo with current version][21] (no tl;dr: the link is 10 lines long, straight to the point)
+- [Rename "master" branch to "senpai"][56] ("In addition to being inappropriate and arcane, the master-slave metaphor is both technically and historically inaccurate." -IETF)
+- [Git aliases 101][58] (`git notice-me senpai` > `git push origin master`)
 - [Formating a sweet README with banners and all][30]
 
 ## Performance
@@ -142,3 +145,6 @@
 [53]: https://htmlcheatsheet.com/css/
 [54]: https://devhints.io/react-router
 [55]: https://devhints.io/redux
+[56]: https://gist.github.com/TheRealBarenziah/434e9be111e25eda53e88c7ecb057acd
+[57]: https://react-hooks-cheatsheet.com/
+[58]: https://hackernoon.com/git-going-with-aliases-a9706e23fa9c
