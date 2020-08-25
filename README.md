@@ -10,7 +10,7 @@
   - [TypeScript resources](#typescript-resources)
   - [Toolboxception](#toolboxception)
   - [Zoom: did you know...](#zoom-did-you-know)
-  - [Zz: ressources fr_FR](#zzz-le-baguette-du-fromage-ressources-fr_fr)
+  - [Zz: ressources fr_FR](#zz-le-baguette-du-fromage-ressources-fr_fr)
 
 
 ## Backend
