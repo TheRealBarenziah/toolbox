@@ -23,6 +23,7 @@
 
 ## Cheat Sheets
 - [Bash][51]
+- [Bash snippets][59]
 - [HTML][52]
 - [CSS][53]
 - [JS][50] ("vanilla")
@@ -148,3 +149,4 @@
 [56]: https://gist.github.com/TheRealBarenziah/434e9be111e25eda53e88c7ecb057acd
 [57]: https://react-hooks-cheatsheet.com/
 [58]: https://hackernoon.com/git-going-with-aliases-a9706e23fa9c
+[59]: https://github.com/alexanderepstein/Bash-Snippets
