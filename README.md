@@ -9,8 +9,8 @@
   - [Reactjs](#reactjs)
   - [TypeScript resources](#typescript-resources)
   - [Toolboxception](#toolboxception)
-  - [Zoom: did you know...](#did-you-know)
-  - [Zzz: ressources fr_FR](#le-baguette-du-fromage-ressources-frfr)
+  - [Zoom: did you know...](#zoom-did-you-know)
+  - [Zz: ressources fr_FR](#zzz-le-baguette-du-fromage-ressources-fr_fr)
 
 
 ## Backend
@@ -58,6 +58,9 @@
 - [Git aliases 101][58] (`git notice-me senpai` > `git push origin master`)
 - [Formating a sweet README with banners and all][30]
 
+## NPM
+- [Building a retrocompatible es6 module with TypeScript][60]
+
 ## Performance
 - [Big O: a JavaScript introduction][19]
 - [Getting started with AssemblyScript][20]
@@ -78,7 +81,7 @@
 - [Type def collection][35]
 
 ## Toolboxception
-- [Eating a lot of vegetables][2]
+- [Cause I eat a lot of vegetables][2]
 - [TDD 101: a JavaScript introduction][42]
 - [ULTIMATE resource list][18]
 
@@ -88,7 +91,7 @@
 - [Rosetta Code][40], common algos & math problems solved for *n* languages
 - [JSPerf][41] (Quote: *an easy way to create & share test cases, comparing the perf of different JS snippets by running benchmarks.*)
 
-## Zzz: le baguette du fromage (ressources fr_FR)
+## Zz: le baguette du fromage (ressources fr_FR)
 - [Devenir freelance][8]
 
 [1]: https://gist.github.com/willurd/5720255
@@ -150,3 +153,4 @@
 [57]: https://react-hooks-cheatsheet.com/
 [58]: https://hackernoon.com/git-going-with-aliases-a9706e23fa9c
 [59]: https://github.com/alexanderepstein/Bash-Snippets
+[60]: https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c?gi=722069687819

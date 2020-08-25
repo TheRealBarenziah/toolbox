@@ -1,0 +1,1 @@
+# Bash snippets I used at some point
