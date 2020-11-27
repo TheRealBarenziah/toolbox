@@ -53,6 +53,7 @@
 - [Replace Master by branch x][10] (One of the most elegant way to 'fix' your awful, dirty, godforsaken gitflow)
 - [Delete a remote branch][11] (tl;dr : `git push origin --delete <branch_name>`)
 - [Delete a local branch][12] (tl;dr: `git branch -d <branch_name>` , use -D instead to force delete w/o status check)
+- [Display branches that are safe to delete][61] (tl;dr : on relevant branch,`git branch -a --merged`)
 - [Update a forked repo with current version][21] (no tl;dr: the link is 10 lines long, straight to the point)
 - [Rename "master" branch to "senpai"][56] ("In addition to being inappropriate and arcane, the master-slave metaphor is both technically and historically inaccurate." -IETF)
 - [Git aliases 101][58] (`git notice-me senpai` > `git push origin master`)
@@ -154,3 +155,4 @@
 [58]: https://hackernoon.com/git-going-with-aliases-a9706e23fa9c
 [59]: https://github.com/alexanderepstein/Bash-Snippets
 [60]: https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c?gi=722069687819
+[61]: https://hassek.github.io/github-prune-merged-branches/
