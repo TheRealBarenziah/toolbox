@@ -59,6 +59,9 @@
 - [Git aliases 101][58] (`git notice-me senpai` > `git push origin master`)
 - [Formating a sweet README with banners and all][30]
 
+## JavaScript
+- [Exploring ES6][64] <3
+
 ## NPM
 - [Building a retrocompatible es6 module with TypeScript][60]
 
@@ -80,6 +83,8 @@
 ## TypeScript resources
 - [Awesome TypeScript resources][34]
 - [Type def collection][35]
+- [Code Coverage done proper][62] (much transpiled, such sourceMap, so readable, wow)
+- [TypeScript Deep Dive][63] (nice book !)
 
 ## Toolboxception
 - [Cause I eat a lot of vegetables][2]
@@ -156,3 +161,6 @@
 [59]: https://github.com/alexanderepstein/Bash-Snippets
 [60]: https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package-44fe7164964c?gi=722069687819
 [61]: https://hassek.github.io/github-prune-merged-branches/
+[62]: https://medium.com/@novemberborn/code-coverage-with-babel-istanbul-nyc-83b8c2f1093
+[63]: https://basarat.gitbook.io/typescript/
+[64]: https://exploringjs.com/es6/index.html
