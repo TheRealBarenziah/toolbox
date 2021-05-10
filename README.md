@@ -85,6 +85,7 @@
 - [Type def collection][35]
 - [Code Coverage done proper][62] (much transpiled, such sourceMap, so readable, wow)
 - [TypeScript Deep Dive][63] (nice book !)
+- [Could not find a declaration file for module "random-untyped-npm-module"][65]
 
 ## Toolboxception
 - [Cause I eat a lot of vegetables][2]
@@ -164,3 +165,4 @@
 [62]: https://medium.com/@novemberborn/code-coverage-with-babel-istanbul-nyc-83b8c2f1093
 [63]: https://basarat.gitbook.io/typescript/
 [64]: https://exploringjs.com/es6/index.html
+[65]: https://www.detroitlabs.com/blog/2018/02/28/adding-custom-type-definitions-to-a-third-party-library/
