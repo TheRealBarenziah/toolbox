@@ -80,6 +80,10 @@
 ## Reactjs
 - [File input wrapper][28] (For more infos about client-side file access [check File API doc][29])
 
+## SVG
+- [SVG 101][66]
+- [Interactive Cheat Sheet][67]
+
 ## TypeScript resources
 - [Awesome TypeScript resources][34]
 - [Type def collection][35]
@@ -166,3 +170,5 @@
 [63]: https://basarat.gitbook.io/typescript/
 [64]: https://exploringjs.com/es6/index.html
 [65]: https://www.detroitlabs.com/blog/2018/02/28/adding-custom-type-definitions-to-a-third-party-library/
+[66]: https://www.sarasoueidan.com/blog/svg-coordinate-systems/
+[67]: https://www.sarasoueidan.com/demos/interactive-svg-coordinate-system/
