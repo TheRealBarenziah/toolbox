@@ -7,6 +7,7 @@
   - [Performance](#performance)
   - [Quality of life](#quality-of-life)
   - [Reactjs](#reactjs)
+  - [SVG](#svg)
   - [TypeScript resources](#typescript-resources)
   - [Toolboxception](#toolboxception)
   - [Zoom: did you know...](#zoom-did-you-know)
