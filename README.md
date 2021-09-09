@@ -3,6 +3,7 @@
   - [Cheat Sheets](#cheat-sheets)
   - [CSS](#css)
   - [Deploy](#deploy)
+  - [FFMPEG](#ffmpeg)
   - [Git](#git)
   - [Performance](#performance)
   - [Quality of life](#quality-of-life)
@@ -49,6 +50,9 @@
 - [Deploy React app on Netlify][14] (More depht about netlify.toml and further links [here][15])
 - [Deploy a Wordpress on OVH][24]
 - [Manage security of dependencies][31] (Snyk.io; free version available)
+
+## FFMPEG
+- [Create clean GIFs (w/ Shotcut)][68]
 
 ## Git
 - [Replace Master by branch x][10] (One of the most elegant way to 'fix' your awful, dirty, godforsaken gitflow)
@@ -173,3 +177,4 @@
 [65]: https://www.detroitlabs.com/blog/2018/02/28/adding-custom-type-definitions-to-a-third-party-library/
 [66]: https://www.sarasoueidan.com/blog/svg-coordinate-systems/
 [67]: https://www.sarasoueidan.com/demos/interactive-svg-coordinate-system/
+[68]: https://forum.shotcut.org/t/increasing-exported-gif-quality-doesnt-remove-artifacting-or-increase-quality-or-increase-file-size/21738/2
